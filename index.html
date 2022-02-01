@@ -16,6 +16,33 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+
+  <nav class="nav collapsible">
+    <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+    <svg class="icon icon--white nav__toggler">
+      <use xlink:href="images/sprite.svg#menu"></use>
+    </svg>
+    <ul class="list nav__list collapsible__content">
+      <li class="nav__item"><a href="#">Hosting</a></li>
+      <li class="nav__item"><a href="#">VPS</a></li>
+      <li class="nav__item"><a href="#">Domain</a></li>
+      <li class="nav__item"><a href="#">Pricing</a></li>
+    </ul>
+  </nav>
+
+
+  <section class="block block--dark block--skewed-left">
+    <header class="block__header">
+      <h2 class="block__heading">Heading</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+        laboriosam.
+      </p>
+    </header>
+  </section>
+
+
    <a href="#" class = "link-arrow">Learn More</a>
    <span class="badge badge--secondary">10% Off</span>
 
@@ -111,6 +138,86 @@
     </div>
   </footer>
 </blockquote>
+
+<div class="card testimonial">
+  <div class="grid grid--1x2">
+    <div class="testimonial__image">
+      <img src="images/testimonial.jpg" alt="A happy, smiling customer" />
+      <span class="icon-container icon-container--accent">
+        <svg class="icon icon--white icon--small">
+          <use xlink:href="images/sprite.svg#quotes"></use>
+        </svg>
+      </span>
+    </div>
+
+    <blockquote class="quote">
+      <p class="quote__text">
+        Muwonge lawrence started his programming journey in 2019 and todate is 
+        he is progressing in different technologies and learns them at a faster rate.
+      </p>
+      <footer>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary quote__line">
+              <use xlink:href="images/sprite.svg#line"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title quote__author">Muwonge Lawrence</h3>
+            <p class="quote__organization">African crafts limited company.</p>
+          </div>
+        </div>
+      </footer>
+    </blockquote>
+
+  </div>
+</div>
+
+
+<div class="callout callout--primary">
+  <div class="grid grid--1x2">
+    <div class="callout__content">
+      <h2 class="callout__heading">Ready to Get Started?</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+        voluptate tempora qui distinctio consequatur aliquid pariatur cupiditate
+        quas cum fugit.
+      </p>
+    </div>
+    <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
+  </div>
+</div>
+
+<div class="collapsible collapsible--expanded">
+  <header class="collapsible__header">
+    <h2 class="collapsible__heading">Item 1</h2>
+    <!-- <svg class="icon icon--white collapsible__chevron">
+      <use xlink:href="images/chevron.svg"></use>
+    </svg> -->
+    <embed src="images/chevron.svg" class="icon icon--white collapsible__chevron"/>
+  </header>
+  <div class="collapsible__content">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, accusamus.
+  </div>
+</div>
+
+
+<section class="block block--dark block--skewed-left hero">
+  <div class="container grid grid--1x2">
+    <header class="block__header hero__content">
+      <h1 class="block__heading">Cloud Hosting for Pros</h1>
+      <p class="hero__tagline">
+        Deploy your websites in less than 60 seconds.
+      </p>
+      <a href="" class="btn btn--accent btn--stretched">Get Started</a>
+    </header>
+    <img class="hero__image" src="images/banner.png" alt="" />
+  </div>
+</section>
+
+
+
+<script src="js/main.js"></script>
 
 </body>
 </html>
