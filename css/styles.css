@@ -169,6 +169,13 @@
     text-transform: uppercase;
     white-space: nowrap;
   }
+
+  .btn .icon {
+    width:2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
   
   .btn--primary {
     background: var(--color-primary);
@@ -249,7 +256,7 @@
   .input-group .input {
     border: 0;
     flex-grow: 1;
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 2rem;
   }
   
   .input-group .btn {
@@ -637,8 +644,22 @@ font-style: normal;
   }
 }
   
+
+/* Domain Block */
+.block-domain .input-group {
+   box-shadow: 0 0 30px 20px #e6ebee;
+   border:0;
+   margin: 4rem 0;
+
+}
  
- 
+ .block-domain__prices{
+    display:grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(2 ,1fr);
+    font-size: 2rem;
+    font-weight: 600;
+ }
 
 
 
